@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 150vh;
+  background: black;
+  width: calc(100% - 33px);
+}
+
+canvas {
+  position: absolute;
+}
+.container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px
+}
+.result-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.result-container > div {
+  font-size: 1.3rem;
+  padding: 0.5rem;
+  margin: 5px 0;
+  color: black;
+  text-transform: capitalize;
+}
+#age {
+  background: #00ffff;
+  border-radius: 10%;
+}
+#emotion {
+  background: #00FFFF;
+  border-radius: 10%;
+}
+#gender {
+  background: #00ffff;
+  border-radius: 10%;
+}
+video {
+  width: 100%;
+}
+
